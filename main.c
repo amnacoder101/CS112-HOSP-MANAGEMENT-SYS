@@ -19,7 +19,7 @@ struct Patient
   int findpatient(int id);
   int readinteger(char message[],int min,int max);
   void readtext(char message[],char text[],int size);
-
+  int patientCount;
   int main()
   { 
     int choose;
